@@ -1,5 +1,6 @@
 {
   "family": "zapp",
+  "executionRoleArn": "arn:aws:iam::102469546157:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
