@@ -1,22 +1,16 @@
 {
   "family": "zapp",
-  "executionRoleArn": "arn:aws:iam::102469546157:role/ecsTaskExecutionRole",
-  "networkMode": "awsvpc",
   "containerDefinitions": [
     {
       "name": "app",
       "image": "",
+      "memory": 128,
       "portMappings": [
         {
           "containerPort": 80,
-          "hostPort": 80,
           "protocol": "tcp"
         }
-      ],
-      "essential": true
+      ]
     }
-  ],
-  "requiresCompatibilities": ["FARGATE"],
-  "cpu": "256",
-  "memory": "512"
+  ]
 }
