@@ -2,7 +2,7 @@
   "family": "zapp",
   "containerDefinitions": [
     {
-      "name": "app",
+      "name": "nginx",
       "image": "",
       "memory": 128,
       "portMappings": [
